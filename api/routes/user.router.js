@@ -4,7 +4,7 @@ import { test } from "../controllers/user.controller.js";
 //Initializing the express.Router
 const router = express.Router();
 
-//Handling HTTP get requests to /test endpoint using test from user.controller
+//Handling HTTP get requests to /test endpoint using test from user.controller.js
 router.get("/test", test);
 
 export default router;
